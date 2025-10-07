@@ -109,10 +109,58 @@ Bash
 
 npm run api
 
+### 4. Ejecutar la Aplicación Front-end
+En tu terminal principal, inicia la aplicación React con Vite:
+
+Bash
+
+npm run dev
+El proyecto se abrirá automáticamente en tu navegador por defecto, generalmente en http://localhost:5173/ (o un puerto similar).
+
 ## Explicar el paso a paso de colaboracion (Pull Request)
 - Documentar como es la mejor forma de comunicarse con el dueño del proyecto para solicitud de colaboración
+¡Agradecemos tu interés en contribuir! Para asegurar un proceso de colaboración fluido, por favor sigue los siguientes pasos al enviar un Pull Request (PR).
+
+Haz un Fork del repositorio a tu cuenta personal.
+
+Clona tu fork a tu máquina local.
+
+Crea una nueva rama para tus cambios. El nombre de la rama debe ser descriptivo (ej: feat/agregar-validacion-email o fix/corregir-bug-filtrado).
+
+Bash
+
+git checkout -b nombre-de-tu-rama
+Realiza tus cambios, asegurándote de que el código sea claro, cumpla con los estándares del proyecto y no introduzca errores.
+
+Confirma (Commit) tus cambios. Los mensajes de commit deben ser concisos y claros.
+
+Bash
+
+git commit -m "feat: descripción corta de la funcionalidad o corrección"
+Sube (Push) la nueva rama a tu fork en GitHub.
+
+Bash
+
+git push origin nombre-de-tu-rama
+Abre un Pull Request desde tu rama a la rama principal (main o master) del repositorio original.
+
+Documentación del PR:
+
+Título Claro: El título del PR debe resumir la finalidad de los cambios.
+
+Descripción Detallada: Explica qué se ha cambiado, por qué y, si aplica, cómo se probó. Si soluciona un issue existente, menciónalo (ej: Fixes #123).
+
+El dueño del proyecto revisará tu PR, proporcionará feedback si es necesario, y lo fusionará una vez aprobado.
 
 ## Informacion del Autor(es)
 - Correo
 - Nombre
 - Redes sociales
+
+Para cualquier consulta o feedback directo, puedes contactar al desarrollador principal:
+
+Nombre: Nombre
+
+Correo: correo@correo.com
+
+Redes sociales: [Tu Perfil de LinkedIn] | [Tu Perfil de GitHub]
